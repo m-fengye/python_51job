@@ -1,0 +1,17 @@
+--------------------表结构--------------------
+CREATE TABLE `51job` (
+  `post` VARCHAR(255) DEFAULT NULL,
+  `company` VARCHAR(255) DEFAULT NULL,
+  `address` VARCHAR(255) DEFAULT NULL,
+  `wages` VARCHAR(255) DEFAULT NULL,
+  `date` VARCHAR(255) DEFAULT NULL
+) ENGINE=INNODB DEFAULT CHARSET=utf8
+--------------------库版本--------------------
+pymysql ==> 0.9.3
+pyecharts ==> 0.2.7
+requests ==> 2.18.4
+全球国家地图 ==> echarts-countries-pypkg
+中国省级地图 ==> echarts-china-provinces-pypkg
+中国市级地图 ==> echarts-china-cities-pypkg
+中国县级地图 ==> echarts-china-counties-pypkg
+中国杂项地图 ==> echarts-china-misc-pypkg
